@@ -12,7 +12,7 @@ doesn't depend on browser video streaming at all.
 
 ```
 air_writing_app/
-├── app.py                        # RECOMMENDED: Streamlit control panel + launcher
+├── app.py                        # Streamlit control panel + launcher
 ├── air_writing_desktop.py        # Native OpenCV camera window (the drawing engine)
 ├── app_webrtc.py                 # Optional: in-browser video via streamlit-webrtc
 ├── config.json                   # Settings shared between app.py and the desktop engine
@@ -108,10 +108,4 @@ that happens, use desktop mode instead.
   antivirus "network protection," or a restrictive firewall/network
   policy. Use desktop mode instead of debugging this further.
 
-## Possible extensions
-
-- Add a "recognize handwriting" mode that feeds the saved canvas through
-  an OCR model (e.g. Tesseract) to convert air-written text to a string.
-- Add multi-color strokes per gesture (e.g. pinch-and-hold to open a
-  color wheel).
-- Support two-hand mode for symmetric drawing or a separate eraser hand.
+### Developed by Nayan pote
